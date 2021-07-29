@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head w-100>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,22 +24,24 @@
   </head>
   <body>
     <header>
+
+
+
       <!-- banner part start  -->
-      <section class="top-banner">
-        <div class="container py-5">
-          <div class="row">
-            <div class="col-10 col-md-12">
-              <div class="row">
-                <div
-                  class="
-                    col-12 col-md-6
-                    d-flex
+
+
+
+<section class="top-banner mb-5">
+  <div class="w-100">
+  <div class="row">
+    <div class="col-10 col-md-12">
+      <div class="row">
+        <div class="col-12 col-md-6 d-flex
                     justify-content-center
-                    align-items-center
-                  "
-                >
-                  <div>
-                    <div class="text-white">
+                    align-items-center">
+                    
+                         <div>
+                    <div class="text-white ms-5">
                       <p class="my-3">
                         <small
                           >Computer-controlled digital transistorized with
@@ -54,17 +56,28 @@
                         amet.
                       </p>
                     </div>
+
+
+
                     <!-- Button trigger modal -->
+
+
                     <button
                       type="button"
-                      class="btn btn-color text-white"
+                      class="btn btn-color text-white ms-5"
                       data-bs-toggle="modal"
                       data-bs-target="#staticBackdrop"
                     >
                       Purchase
                     </button>
 
+
+
+
                     <!-- Modal -->
+
+
+
                     <div
                       class="modal fade"
                       id="staticBackdrop"
@@ -96,7 +109,7 @@
                           <div class="modal-footer">
                             <button
                               type="button"
-                              class="btn btn-secondary"
+                              class="btn btn-color"
                               data-bs-dismiss="modal"
                             >
                               Close
@@ -106,19 +119,25 @@
                       </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="col-12 col-md-6">
-                  <img class="img-fluid" src="images/header-bike.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
+        <div class="col-12 col-md-6">
+ <img class="img-fluid" src="images/header-bike.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
     </header>
-    <main>
+    <main class="m-0">
+
+
+
       <!-- Fetured Bikes 2021  -->
+
+
+
       <section>
         <div class="container mt-5">
           <div>
@@ -126,7 +145,7 @@
               Fetured Bikes 2021
             </h1>
             <small
-              class="d-flex justify-content-center align-items-center best-bike"
+              class="d-flex justify-content-center align-items-center text-color"
               >Best bike collection</small
             >
           </div>
@@ -162,14 +181,20 @@
         </div>
       </section>
 
+
+
+
       <!-- Happy Clients says -->
+
+
+
       <section class="container mt-5 mb-5">
         <h1 class="d-flex justify-content-center align-items-center">
-          Happy <span class="best-bike g-2 ps-2"> Clients says</span>
+          Happy <span class="text-color g-2 ps-2"> Clients says</span>
         </h1>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
-          <div class="col col-12 col-md-6 col-lg-4">
-            <div class="card card-size pt-5">
+          <div class="col col-12 col-md-6 col-lg-4 ">
+            <div class="card card-size pt-5 ">
               <div class="d-flex justify-content-center align-items-center">
                 <img
                   src="images/user-1.png"
@@ -288,32 +313,39 @@
         </div>
       </section>
 
-      <!-- Frequently Asked Questions -->
-      <section class="container mt-5">
-      <div class="col-10 col-md-10 col-lg-12">
-        <div class="row">
-            <div class="col-12 col-md-4 col-lg-6">
-<img src="images/faq.png" alt="" width="431" height="423">
-        </div>
-        <div class="col-12 col-md-4 col-lg-6">
-   <div id="accordion">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h5 class="mb-0">
-        <button class="btn btn-link text-decoration-none"  aria-labelledby=dropdownMenuButton data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-         1. What are the prerequisite documents necessary for a Two-wheeler Insurance claim? 
-        </button>
-      </h5>
-    </div>
 
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne dropdownMenuButton" data-parent="#accordion">
-      <div class="card-body">
+
+      <!-- Frequently Asked Questions -->
+
+
+      <section class="container mt-5">
+        <div class="d-flex justify-content-center align-items-center mb-5 ">
+          <h1>Frequently Asked <span class="text-color">Questions</span></h1></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-10 col-md-12">
+      <div class="row">
+        <div class="col-12 col-md-6">
+<img src="images/faq.png" alt="" width="431" height="423">
+
+        </div>
+        <div class="col-12 col-md-6">
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        1. What are the prerequisite documents necessary for a Two-wheeler Insurance claim? 
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
       <h5>Though they are talked about in policy, this is just a handy list for your convenience:</h5>
       <ul>
-  <li>Claim form appropriately filled (before submitting do a Xerox and keep)
+  <li>Claim form appropriately filled (before submitting do a Xerox and keep) </li>
 
 
-Payment receipts and repair bills (always keep a photocopy with you)</li>
+<li> Payment receipts and repair bills (always keep a photocopy with you)</li>
   <li>Photocopy of the vehicle RC along with the original for verification</li>
   <li>Authentic approximation of loss (Make an extra copy and file it)</li>
   <li>
@@ -322,16 +354,14 @@ Payment receipts and repair bills (always keep a photocopy with you)</li>
       </div>
     </div>
   </div>
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed text-decoration-none" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-         2. How do we claim insurance if the vehicle is stolen? 
-        </button>
-      </h5>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-      <div class="card-body">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          2. How do we claim insurance if the vehicle is stolen? 
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
          <h5>- First of all, file a FIR with your local police station or the police station nearest to you (if you are travelling). Submit the photocopy of the FIR and the documents mentioned above, the bike keys and a non-traceable certificate to your insurance company.
 
 :</h5>
@@ -339,23 +369,18 @@ Payment receipts and repair bills (always keep a photocopy with you)</li>
   <li>You can always claim the full IDV amount in case your bike is stolen.
 </li>
   <li>Another good news is that natural calamities and man-made disasters are covered too.
-</li>
-  
-</ul>
       </div>
     </div>
   </div>
-  <div class="card">
-    <div class="card-header" id="headingThree">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed text-decoration-none" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-         3. What all documents you need for buying new bike insurance?
-        </button>
-      </h5>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-      <div class="card-body">
-       <h5>Getting a new insurance policy for your old bike is a child’s play. Things you need are:
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        3. What all documents you need for buying new bike insurance?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <h5>Getting a new insurance policy for your old bike is a child’s play. Things you need are:
 
 </h5>
 <ul>
@@ -371,19 +396,16 @@ Earlier insurance copy
       </div>
     </div>
   </div>
-  <div class="card">
-    <div class="card-header" id="headingThree">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed text-decoration-none" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-       4. What if the insurance policy expires?
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapsefour">
+              4. What if the insurance policy expires?
 
-
-        </button>
-      </h5>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-      <div class="card-body">
-       <h5>Getting a new insurance policy for your old bike is a child’s play. Things you need are:
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+            <h5>Getting a new insurance policy for your old bike is a child’s play. Things you need are:
 
 </h5>
 <ul>
@@ -401,19 +423,21 @@ If not done within 90 days, you lose on your No Claim Bonus, leading to a substa
       </div>
     </div>
   </div>
-
-
-
-
 </div>
-            </div>
-        </div>
+
         </div>
       </div>
+    </div>
+  </div>
+</div>
       </section>
+
+
 <!-- honda top 3 bike  -->
+
+
 <section class="container mb-5 mt-5">
-  <h1 class="d-flex justify-content-center align-items-center ">Top 5 <span class="best-bike ps-2">Honda</span><samp class="ps-2"> Bike</samp></h1>
+  <h1 class="d-flex justify-content-center align-items-center ">Top 5 <span class="text-color ps-2">Honda</span><samp class="ps-2"> Bike</samp></h1>
   <div class="row">
     <div class="col-12">
       <table class="table table-hover">
@@ -461,11 +485,16 @@ If not done within 90 days, you lose on your No Claim Bonus, leading to a substa
     </div>
   </div>
 </section>
+
+
 <!-- Honda Foundation  -->
+
+
 <section class="container mt-5 mb-5">
-  <h1>Honda Foundation</h1>
+  <div class="d-flex justify-content-center align-items-center"><h1 class="text-color">Honda Foundation</h1></div>
+  
 <h4>“I reached where I am now just through technology. If we really can solve problems with technology, then I definitely want to be of some use."</h4>
-<div class="col col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
+<div class=" d-flex justify-content-center align-items-center">
   <img src="images/Soichiro-Honda.jpg" alt=""  width="288"
                 height="243">
 </div>
@@ -479,8 +508,8 @@ If not done within 90 days, you lose on your No Claim Bonus, leading to a substa
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
 
   </body>
 </html>
+
+

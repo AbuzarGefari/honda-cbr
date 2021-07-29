@@ -1,24 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 
 .top-banner{
     background: #264653;
 }
 .btn-color{
-    background: #E76F51
-;
+    background: #E76F51;
 }
 
 .grayscale{
     filter: grayscale(100%);
 }
-.best-bike{
-color: #E76F51
-;
+.text-color{
+color: #E76F51;
 }
 .card-size{
-    width: 323px;
-    height: 478px;
-}
+    width: 323px;}
 .filled{
-  color:#E77C40
-
-}
+  color:#E77C40;}
